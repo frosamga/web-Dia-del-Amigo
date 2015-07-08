@@ -1,0 +1,35 @@
+/*
+	Iridium by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		font-size: 10.5pt;
+	}
+	
+	.row:not(.flush):not(.no-collapse):not(.no-collapse-1):not(.no-collapse-2):not(.no-collapse-3) > * {
+    padding: 5px 30% !important;
+	}
+	.row:not(.no-collapse):not(.no-collapse-1):not(.no-collapse-2):not(.no-collapse-3) > * {
+		float: none !important;
+		width: 100% !important;
+		margin-left: 0px !important;
+	}
+	.row:first-child > * {
+		padding-top: 0px !important;
+	}
+	.row > * {
+		padding-left: 10px;
+	}
+	.row > * {
+		float: left;
+		box-sizing: border-box;
+	}
+}
+
